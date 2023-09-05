@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hobbies Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #008000;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 2px solid #008000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            background-image: linear-gradient(to bottom right, #ffffff, #e0e0e0);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #008000;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #006400;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="Index.html">Home</a>
+    <a href="page2.html">Page 2</a>
+    <a href="page3.html">Page 3</a>
+    <a href="page4.html">Page 4</a>
+    <a href="page5.html">Page 5</a>
+    <div class="container">
+        <h1>Hobbies</h1>
+        <p>I also love flying my drones! Anytime I go to a new location, I always try to get as much film as possible.</p>
+
+        <div class="flex-container">
+            <img src="resource/AdobeStock_302312369.jpeg" width="300" height="300" alt="Drone 1">
+            <img src="resource/AdobeStock_250850523.jpeg" width="300" height="300" alt="Drone 2">
+            <img src="resource/AdobeStock_95121140.jpeg" width="300" height="300" alt="Drone 3">
+        </div>
+    </div>
+</body>
+</html>
